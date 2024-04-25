@@ -1012,7 +1012,7 @@ blockquote {
     font-style: normal;
     font-weight: normal;
     text-align: center;
-    content: "+";
+    content: "";
     width: 70px;
     height: 70px;
     border-radius: 100em;
