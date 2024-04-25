@@ -31,19 +31,19 @@
 /*------------------------------------------------------------------------------------------*/
 .box {
     background-color: #ffe60067;
-    padding: 5px;
+    padding: 10px;
   }
 p.with-eight {
-    text-shadow:
-        0.05em 0 black,
-        0 0.05em black,
-        -0.05em 0 black,
-        0 -0.05em black,
-        -0.05em -0.05em black,
-        -0.05em 0.05em black,
-        0.05em -0.05em black,
-        0.05em 0.05em black;
-}
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.007em 0 rgb(214, 211, 211), 0 0.007em rgb(255, 253, 253), -0.007em 0 rgb(255, 255, 255), 0 -0.007em rgb(255, 255, 255);
+  }
+
+p.with-eight2 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.007em 0 rgb(214, 211, 211), 0 0.007em rgb(255, 253, 253), -0.007em 0 rgb(255, 255, 255), 0 -0.007em rgb(255, 255, 255);
+  }
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
